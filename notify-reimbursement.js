@@ -9,8 +9,8 @@ const config = { baseUrl: "http://localhost:8080/engine-rest", use: logger };
 const client = new Client(config);
 
 // susbscribe to the topic: 'creditScoreChecker'
-client.subscribe("notify-reimburse", async function({ task, taskService }) {
-  // Put your business logic
-  // complete the task
-  await taskService.complete(task);
+client.subscribe("notify-reimburse", async function ({ task, taskService }) {
+	// Put your business logic
+	// complete the task
+	await taskService.complete(task);
 });
