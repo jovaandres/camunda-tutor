@@ -1,0 +1,53 @@
+{
+  "components": [
+    {
+      "label": "name",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1a9zh1v",
+        "columns": null
+      },
+      "id": "Field_1ftlase",
+      "key": "transfer_name"
+    },
+    {
+      "label": "type",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0gdooxy",
+        "columns": null
+      },
+      "id": "Field_1v5sm7j",
+      "key": "transfer_type"
+    },
+    {
+      "label": "amount",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_0zz2lyj",
+        "columns": null
+      },
+      "id": "Field_1xjlbpq",
+      "key": "transfer_amount"
+    },
+    {
+      "label": "account number",
+      "type": "textfield",
+      "layout": {
+        "row": "Row_1hcm6t7",
+        "columns": null
+      },
+      "id": "Field_06jco20",
+      "key": "transfer_accoount_number"
+    }
+  ],
+  "type": "default",
+  "id": "Form_Create_Transfer",
+  "executionPlatform": "Camunda Cloud",
+  "executionPlatformVersion": "8.2.0",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.15.0"
+  },
+  "schemaVersion": 10
+}

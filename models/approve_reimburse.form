@@ -1,0 +1,33 @@
+{
+  "components": [
+    {
+      "values": [
+        {
+          "label": "Yes",
+          "value": "yes"
+        },
+        {
+          "label": "No",
+          "value": "no"
+        }
+      ],
+      "label": "",
+      "type": "radio",
+      "layout": {
+        "row": "Row_1dn1ae0",
+        "columns": null
+      },
+      "id": "Field_06o0e23",
+      "key": "approve_reimbursement"
+    }
+  ],
+  "type": "default",
+  "id": "Form_Approve",
+  "exporter": {
+    "name": "Camunda Modeler",
+    "version": "5.15.0"
+  },
+  "executionPlatform": "Camunda Platform",
+  "executionPlatformVersion": "7.19.0",
+  "schemaVersion": 10
+}
